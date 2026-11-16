@@ -1,0 +1,1319 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{margin-top:1.35pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:15.0pt;
+	text-autospace:none;
+	font-size:18.0pt;
+	font-family:"Calibri",sans-serif;}
+h2
+	{margin-top:5.35pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:16.05pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	text-autospace:none;
+	font-size:11.5pt;
+	font-family:"Calibri",sans-serif;}
+h4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h5
+	{margin-top:3.85pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:"Calibri",sans-serif;}
+h6
+	{margin-top:4.15pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:2.05pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.1in;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:1.95pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.1in;
+	text-indent:-.25in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{text-autospace:none;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:0in 0in 14.0pt 0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:0in 0in 14.0pt 0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:0in 0in 14.0pt 0in;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:8.5in 11.0in;
+	margin:32.0pt 0in 14.0pt 0in;}
+div.WordSection4
+	{page:WordSection4;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=Nunito:wght@600;700;800&display=swap');
+
+:root {
+	color-scheme: light;
+	--ink: #000000;
+	--muted: #000000;
+	--accent: #287267;
+	--line: #dce4e1;
+	--canvas: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--canvas);
+	scroll-behavior: smooth;
+}
+
+body {
+	max-width: none;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: var(--ink);
+	background: #ffffff;
+	font-family: "DM Sans", "Segoe UI", sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.site-shell {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 238px;
+	align-items: start;
+	gap: 58px;
+	width: min(100%, 1280px);
+	margin: 0 auto;
+	padding: 44px 48px 80px;
+}
+
+.site-sidebar {
+	position: sticky;
+	top: 32px;
+	grid-column: 2;
+	grid-row: 1;
+	align-self: start;
+	min-width: 0;
+	padding: 24px 0;
+	text-align: right;
+}
+
+.site-name {
+	margin: 0 0 18px;
+	color: #777777;
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.site-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 22px;
+}
+
+.site-links {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 4px;
+}
+
+.site-links a {
+	padding: 8px 0;
+	color: var(--muted);
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	text-align: right;
+}
+
+.site-links a:hover,
+.site-links a:focus-visible {
+	color: var(--accent);
+	border-color: var(--accent);
+}
+
+.site-content {
+	grid-column: 1;
+	grid-row: 1;
+	min-width: 0;
+}
+
+.site-content .eyebrow {
+	margin: 0 0 10px !important;
+	color: #65726f !important;
+	font-size: 11px !important;
+	font-weight: 700;
+}
+
+.contact-details {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 4px 24px;
+}
+
+.contact-details p {
+	margin-bottom: 12px !important;
+}
+
+.contact-details strong {
+	color: var(--muted);
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.contact-details a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+.contact-details a:hover {
+	text-decoration: underline;
+}
+
+.hobby-list {
+	margin: 0 !important;
+	color: #000000;
+	font-size: 14px;
+	line-height: 1.75;
+}
+
+.WordSection1,
+body > span {
+	display: none !important;
+}
+
+.WordSection2,
+.WordSection3,
+.WordSection4 {
+	width: 100%;
+	max-width: none;
+	margin: 0 !important;
+	padding: 42px 24px !important;
+	overflow: visible;
+	background: #ffffff;
+	border: 0;
+	box-shadow: none;
+}
+
+.WordSection2 {
+	width: 100%;
+	margin: 0 !important;
+	padding: 28px 0 34px !important;
+	background: transparent;
+	border-bottom: 1px solid var(--line);
+}
+
+.WordSection3,
+.WordSection4 {
+	max-width: none;
+	margin: 0 !important;
+	padding: 30px 0 !important;
+}
+
+.WordSection2 h1,
+.WordSection2 h2,
+.WordSection2 p,
+.WordSection3 h3,
+.WordSection3 h4,
+.WordSection3 h5,
+.WordSection3 h6,
+.WordSection3 p,
+.WordSection4 h3,
+.WordSection4 h4,
+.WordSection4 h5,
+.WordSection4 h6,
+.WordSection4 p {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	text-indent: 0 !important;
+}
+
+.WordSection2 h1 {
+	margin-top: 0 !important;
+	margin-bottom: 4px !important;
+	color: var(--ink);
+	font-family: "DM Serif Display", Georgia, serif;
+	font-size: 48px !important;
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.WordSection2 h2 {
+	margin-top: 0 !important;
+	margin-bottom: 22px !important;
+	color: var(--ink);
+	font-size: 16px !important;
+	font-weight: 600;
+	line-height: 1.45;
+}
+
+.WordSection2 h1 span,
+.WordSection2 h2 span,
+.WordSection2 span[style*="color:white"] {
+	color: inherit !important;
+}
+
+.WordSection2 p {
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+	color: var(--ink);
+	font-size: 14px !important;
+	line-height: 1.65 !important;
+	text-align: left !important;
+}
+
+.WordSection2 p:first-of-type {
+	margin-bottom: 22px !important;
+}
+
+.WordSection2 a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+.WordSection2 a[href^="mailto:"] {
+	color: var(--ink);
+}
+
+.WordSection2 a:hover {
+	text-decoration: underline;
+}
+
+.WordSection3 h3,
+.WordSection4 h3 {
+	margin-top: 28px !important;
+	margin-bottom: 14px !important;
+	padding-bottom: 7px !important;
+	color: var(--accent) !important;
+	border-bottom: 2px solid var(--line);
+	font-size: 15px !important;
+	font-weight: 700;
+	line-height: 1.35;
+	break-after: avoid;
+}
+
+.WordSection3 h3:first-of-type,
+.WordSection4 h3:first-of-type {
+	margin-top: 0 !important;
+}
+
+[id] {
+	scroll-margin-top: 92px;
+}
+
+.WordSection3 h3 table,
+.WordSection4 h3 table,
+.WordSection3 h3 br,
+.WordSection4 h3 br,
+.WordSection3 img[src*="image001.gif"],
+.WordSection3 img[src*="image002.gif"],
+.WordSection4 img[src*="image001.gif"],
+.WordSection4 img[src*="image002.gif"],
+.WordSection3 + span {
+	display: none !important;
+}
+
+.WordSection3 h4,
+.WordSection3 h5,
+.WordSection3 h6,
+.WordSection4 h4,
+.WordSection4 h5,
+.WordSection4 h6 {
+	margin-top: 18px !important;
+	margin-bottom: 3px !important;
+	color: var(--ink);
+	font-size: 15px !important;
+	font-weight: 700;
+	line-height: 1.45;
+}
+
+.WordSection3 p,
+.WordSection4 p {
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+	color: var(--ink);
+	font-size: 14px !important;
+	line-height: 1.65 !important;
+	text-align: left !important;
+}
+
+.WordSection3 p.MsoNormal,
+.WordSection4 p.MsoNormal {
+	margin-bottom: 8px !important;
+	color: var(--muted);
+	font-size: 12px !important;
+}
+
+.WordSection3 p.MsoListParagraph,
+.WordSection4 p.MsoListParagraph {
+	position: relative;
+	margin-bottom: 9px !important;
+	padding-left: 17px !important;
+}
+
+.WordSection3 p.MsoListParagraph > span:first-child,
+.WordSection4 p.MsoListParagraph > span:first-child {
+	display: none;
+}
+
+.WordSection3 p.MsoListParagraph::before,
+.WordSection4 p.MsoListParagraph::before {
+	position: absolute;
+	top: 0.72em;
+	left: 1px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--accent);
+	content: "";
+}
+
+@media (max-width: 640px) {
+	body {
+		padding: 0 0 24px !important;
+	}
+
+	.WordSection2,
+	.WordSection3,
+	.WordSection4 {
+		margin-bottom: 12px !important;
+		padding: 28px 22px !important;
+		border-right: 0;
+		border-left: 0;
+		box-shadow: none;
+	}
+
+	.WordSection2 h1 {
+		font-size: 34px !important;
+	}
+
+	.WordSection2 h2 {
+		font-size: 16px !important;
+	}
+}
+
+@media (max-width: 760px) {
+	.site-shell {
+		grid-template-columns: 1fr;
+		gap: 24px;
+		padding: 20px 22px 48px;
+	}
+
+	.site-sidebar,
+	.site-content {
+		grid-column: auto;
+		grid-row: auto;
+	}
+
+	.site-sidebar {
+		position: static;
+		padding: 14px 0 10px;
+		text-align: left;
+	}
+
+	.site-links a {
+		text-align: left;
+	}
+
+	.site-nav {
+		gap: 10px;
+	}
+
+	.site-links {
+		flex-direction: row;
+		gap: 18px;
+		overflow-x: auto;
+		padding-bottom: 2px;
+	}
+
+	.contact-details {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media print {
+	html,
+	body {
+		max-width: none;
+		padding: 0 !important;
+		background: #ffffff;
+	}
+
+	.WordSection2,
+	.WordSection3,
+	.WordSection4 {
+		max-width: none;
+		width: 100%;
+		margin: 0 !important;
+		padding: 24px 0 !important;
+		border: 0;
+		box-shadow: none;
+	}
+
+	.site-shell {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.site-sidebar {
+		display: none;
+	}
+}
+
+.site-content h2,
+.site-content h3,
+.site-content h4,
+.site-content h5,
+.site-content h6 {
+	color: #000000 !important;
+	font-family: "Nunito", "Trebuchet MS", sans-serif !important;
+	font-weight: 700 !important;
+}
+
+.site-content h2 span,
+.site-content h3 span,
+.site-content h4 span,
+.site-content h5 span,
+.site-content h6 span {
+	color: inherit !important;
+	font-weight: inherit !important;
+
+:root {
+	--muted: #67736f;
+	--line: #d9e1dd;
+	--canvas: #f5f7f6;
+}
+
+body {
+	background: var(--canvas);
+}
+
+.site-shell {
+	gap: 64px;
+	padding: 56px 48px 88px;
+}
+
+.site-sidebar {
+	top: 40px;
+	padding: 24px 0 24px 22px;
+	border-left: 1px solid var(--line);
+}
+
+.site-links a {
+	padding: 9px 0;
+	transition: color 160ms ease;
+}
+
+.site-content .eyebrow {
+	text-transform: uppercase;
+}
+
+.contact-details p {
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--line);
+}
+
+.WordSection2,
+.WordSection3,
+.WordSection4 {
+	background: transparent !important;
+}
+
+.WordSection2 {
+	padding: 34px 0 42px !important;
+}
+
+.WordSection2 h1 {
+	font-size: 52px !important;
+}
+
+.WordSection2 h1::after {
+	display: block;
+	width: 48px;
+	height: 3px;
+	margin-top: 15px;
+	background: var(--accent);
+	content: "";
+}
+
+.WordSection3 h3,
+.WordSection4 h3 {
+	border-bottom: 1px solid var(--line);
+}
+
+.WordSection3 h3::after,
+.WordSection4 h3::after {
+	display: block;
+	width: 38px;
+	height: 2px;
+	margin-top: 9px;
+	background: var(--accent);
+	content: "";
+}
+
+.experience-panel h4 {
+	padding-left: 12px;
+	border-left: 2px solid var(--accent);
+}
+
+@media (max-width: 760px) {
+	.site-sidebar {
+		top: auto;
+		padding: 14px 0 10px;
+		border-left: 0;
+		border-bottom: 1px solid var(--line);
+	}
+}
+
+@media (max-width: 640px) {
+	.WordSection2 h1 {
+		font-size: 38px !important;
+	}
+}
+}
+
+.site-content p,
+.site-content p.MsoNormal,
+.site-content p.MsoBodyText,
+.site-content p.MsoListParagraph,
+.site-content li {
+	color: #000000 !important;
+	font-family: "DM Sans", "Segoe UI", sans-serif !important;
+	font-size: 15px !important;
+}
+
+.site-content p span,
+.site-content li span {
+	color: inherit !important;
+	font-family: inherit !important;
+	font-size: inherit !important;
+	letter-spacing: 0 !important;
+}
+
+.site-content > span {
+	display: none !important;
+}
+
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='word-wrap:break-word'>
+
+<div class="site-shell">
+<aside class="site-sidebar">
+<p class="site-name">Scientific leadership &middot; Computational biology and AI &middot; Drug development</p>
+<nav class="site-nav" aria-label="Main navigation">
+	<div class="site-links">
+		<a href="#about">About</a>
+		<a href="#experience">Experience</a>
+		<a href="#skills">Expertise</a>
+		<a href="#leadership">Leadership</a>
+		<a href="#publications">Publications</a>
+		<a href="#education">Education</a>
+		<a href="#hobbies">Hobbies</a>
+		<a href="#contact">Contact</a>
+	</div>
+</nav>
+</aside>
+<main class="site-content">
+
+<div class=WordSection1>
+
+<p class=MsoBodyText style='margin-top:.3pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:6.5pt;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+</div>
+
+<span style='font-size:6.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<h1><span style='color:black'>Oluwaseun Ishola, PhD</span></h1>
+
+<h2><span style='color:black'>Computational<span style='letter-spacing:-.25pt'>
+</span>Biologist<span style='letter-spacing:-.15pt'> </span>&amp;<span
+style='letter-spacing:-.2pt'> </span>Translational<span style='letter-spacing:
+-.1pt'> </span>Multi-Omics<span style='letter-spacing:-.1pt'> Scientist</span></span></h2>
+
+<p id="about" class=MsoBodyText style='margin-top:14.35pt;margin-right:1.9pt;margin-bottom:
+0in;margin-left:16.05pt;margin-bottom:.0001pt;text-align:justify;line-height:
+107%'><span style='color:black'>I'm a Nigerian-German scientist, born and raised in Ilorin, based in Germany for ten years. I am an Applied AI &amp; Translational Computational Biologist with extensive experience building, fine-tuning, and evaluating machine learning systems and biological foundation models for therapeutic discovery. Experienced in translating complex AI and multi-omics outputs into actionable mechanistic insights alongside cross-functional translational teams.</span></p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:128%;font-family:"Calibri",sans-serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection3>
+
+<p class=MsoBodyText style='margin:0in;margin-bottom:.0001pt'><span
+style='position:absolute;z-index:-1659959296;margin-left:14px;margin-top:192px;
+width:1224px;height:377px'><img width=816 height=251
+src="Seun_Ishola_AZ_html_files/image001.gif"></span></p>
+
+<p class=MsoBodyText style='margin-top:12.65pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:11.5pt'>&nbsp;</span></p>
+
+<section class="experience-panel">
+<h3 id="experience"><span style='letter-spacing:-.1pt'>EXPERIENCE</span></h3>
+
+<h4 style='margin-top:5.05pt;text-align:justify'><span style='color:#333333'>Bioinformatician</span><span
+style='color:#333333;font-weight:normal'>,<span style='letter-spacing:-.35pt'> </span></span>Ethris<span
+style='letter-spacing:-.35pt'> </span>GmbH,<span style='letter-spacing:-.25pt'>
+</span><span style='letter-spacing:-.1pt'>Munich</span></h4>
+
+<p class=MsoNormal style='margin-left:.6in;text-align:justify'><i><span
+style='font-size:10.0pt'>Sep<span style='letter-spacing:-.15pt'> </span>2023<span
+style='letter-spacing:-.05pt'> </span>-<span style='letter-spacing:-.15pt'> </span>Jan<span
+style='letter-spacing:-.1pt'> </span><span style='letter-spacing:-.2pt'>2026</span></span></i></p>
+
+<p class=MsoListParagraph style='margin-top:2.05pt;margin-right:43.6pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Applied machine learning and
+biological foundation models to extract mechanistic biomarkers and guide
+translational go/no-go decisions for therapeutic programs..</span></p>
+
+<p class=MsoListParagraph style='margin-top:2.05pt;margin-right:43.05pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Built an end-to-end computational
+workflow elucidating mRNA treatment signal across cell lineages supporting
+clinical implementation, demonstrating delivery of high-quality computational
+biology solutions in a regulatory environment.</span></p>
+
+<p class=MsoListParagraph style='margin-right:43.6pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Applied biological foundation
+models (CodonBERT, LinearDesign) and computational sequence optimization tools
+to design targeted nucleic acid constructs, engineering UTR and structural
+elements to optimize binding and functional <span style='letter-spacing:-.1pt'>stability.</span></span></p>
+
+<p class=MsoListParagraph style='margin-right:43.5pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Analysed MPRA-derived 5&#8242; UTR
+sequences under selective pressure to identify sequence variants associated
+with improved translation efficiency and developed computational approaches to
+rank functional candidates.</span></p>
+
+<p class=MsoListParagraph style='margin-top:2.05pt;margin-right:43.7pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Developed quantitative evaluation
+metrics and thresholds for AI model predictions to validate computational
+findings against downstream experimental data.</span></p>
+
+<p class=MsoListParagraph style='margin-right:43.05pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Established computational
+workflows and automated pipelines (Nextflow, Snakemake) to interpret
+high-dimensional single-cell sequencing datasets (Seurat, DESeq2), ensuring
+high standards for data integrity, documentation, and <span style='letter-spacing:
+-.1pt'>reproducibility.</span></span></p>
+
+<p class=MsoListParagraph style='margin-top:2.1pt;margin-right:43.3pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Served<span style='letter-spacing:
+-.4pt'> </span>as<span style='letter-spacing:-.4pt'> </span>bioinformatics<span
+style='letter-spacing:-.4pt'> </span>lead<span style='letter-spacing:-.4pt'> </span>across<span
+style='letter-spacing:-.4pt'> </span>cross-functional<span style='letter-spacing:
+-.4pt'> </span>teams,<span style='letter-spacing:-.4pt'> </span>collaborating<span
+style='letter-spacing:-.45pt'> </span>closely<span style='letter-spacing:-.4pt'>
+</span>with<span style='letter-spacing:-.35pt'> </span>molecular<span
+style='letter-spacing:-.4pt'> </span>biologists,<span style='letter-spacing:
+-.4pt'> </span>experimental scientists, and software engineers to bridge
+computational design and wet-lab validation.</span></p>
+
+<p class=MsoListParagraph style='margin-top:1.9pt;margin-right:0in;margin-bottom:
+0in;margin-left:79.15pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-17.95pt'><span style='font-size:10.0pt;font-family:Symbol'> <span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt'>Contributed<span style='letter-spacing:-.45pt'> </span>to<span
+style='letter-spacing:-.4pt'> </span>peer-reviewed<span style='letter-spacing:
+-.4pt'> </span>publications<span style='letter-spacing:-.45pt'> </span>and<span
+style='letter-spacing:-.4pt'> </span>presented<span style='letter-spacing:-.4pt'>
+</span>findings<span style='letter-spacing:-.4pt'> </span>at<span
+style='letter-spacing:-.5pt'> </span>scientific<span style='letter-spacing:
+-.45pt'> </span><span style='letter-spacing:-.1pt'>conferences</span></span></p>
+
+<p class=MsoBodyText style='margin-top:4.05pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<h6 style='margin-top:0in'>Doctoral<span style='letter-spacing:-.55pt'> </span>Researcher,<span
+style='letter-spacing:-.45pt'> </span>Helmholtz<span style='letter-spacing:
+-.45pt'> </span>Research<span style='letter-spacing:-.45pt'> </span>Zentrum,<span
+style='letter-spacing:-.3pt'> </span>Technical<span style='letter-spacing:-.55pt'>
+</span>University<span style='letter-spacing:-.45pt'> </span>of<span
+style='letter-spacing:-.5pt'> </span><span style='letter-spacing:-.1pt'>Munich</span></h6>
+
+<p class=MsoNormal style='margin-top:1.95pt;margin-right:0in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt'><i><span style='font-size:10.0pt'>Mar<span
+style='letter-spacing:-.3pt'> </span>2019  <span style='letter-spacing:-.15pt'>
+</span>Oct<span style='letter-spacing:-.2pt'> </span>2025,<span
+style='letter-spacing:-.1pt'> Freising</span></span></i></p>
+
+<p class=MsoListParagraph style='margin-top:2.1pt;margin-right:94.25pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Developed<span style='letter-spacing:
+-.3pt'> </span>reproducible<span style='letter-spacing:-.35pt'> </span>bioinformatics<span
+style='letter-spacing:-.3pt'> </span>pipelines<span style='letter-spacing:-.3pt'>
+</span>in<span style='letter-spacing:-.3pt'> </span>Linux/HPC<span
+style='letter-spacing:-.35pt'> </span>environments<span style='letter-spacing:
+-.25pt'> </span>for<span style='letter-spacing:-.3pt'> </span>microbiome,<span
+style='letter-spacing:-.3pt'> </span>metagenomic, metatranscriptomic and
+phageomic datasets across mouse and environmental systems.</span></p>
+
+<p class=MsoListParagraph style='margin-right:66.5pt'><span style='font-size:
+10.0pt'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Characterized<span
+style='letter-spacing:-.25pt'> </span>complex<span style='letter-spacing:-.2pt'>
+</span>microbial<span style='letter-spacing:-.25pt'> </span>ecosystems,<span
+style='letter-spacing:-.25pt'> </span>bacteriophage<span style='letter-spacing:
+-.3pt'> </span>diversity,<span style='letter-spacing:-.25pt'> </span>and<span
+style='letter-spacing:-.25pt'> </span>community<span style='letter-spacing:
+-.25pt'> </span>profiling<span style='letter-spacing:-.3pt'> </span>through<span
+style='letter-spacing:-.25pt'> </span>integrated computational workflows and
+multi-omics sequencing datasets.</span></p>
+
+<p class=MsoListParagraph style='margin-top:2.0pt;margin-right:51.85pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Evaluated<span style='letter-spacing:
+-.2pt'> </span>and<span style='letter-spacing:-.3pt'> </span>optimised<span
+style='letter-spacing:-.05pt'> </span>open-source<span style='letter-spacing:
+-.3pt'> </span>bioinformatics<span style='letter-spacing:-.2pt'> </span>tools<span
+style='letter-spacing:-.2pt'> </span>and<span style='letter-spacing:-.2pt'> </span>pipeline<span
+style='letter-spacing:-.25pt'> </span>assumptions<span style='letter-spacing:
+-.2pt'> </span>for<span style='letter-spacing:-.2pt'> </span>complex<span
+style='letter-spacing:-.2pt'> </span>sequencing<span style='letter-spacing:
+-.2pt'> </span>datasets, developing custom Python-based solutions to improve
+workflow performance and reproducibility</span></p>
+
+<p class=MsoListParagraph style='margin-top:2.0pt;margin-right:46.9pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Integrated<span style='letter-spacing:
+-.2pt'> </span>computational<span style='letter-spacing:-.2pt'> </span>analyses<span
+style='letter-spacing:-.2pt'> </span>across<span style='letter-spacing:-.2pt'> </span>multiple<span
+style='letter-spacing:-.3pt'> </span>sequencing<span style='letter-spacing:
+-.2pt'> </span>modalities<span style='letter-spacing:-.2pt'> </span>to<span
+style='letter-spacing:-.2pt'> </span>investigate<span style='letter-spacing:
+-.25pt'> </span>microbial<span style='letter-spacing:-.2pt'> </span>community<span
+style='letter-spacing:-.2pt'> </span>structure, viral diversity and functional
+gene profiles.</span></p>
+
+<p class=MsoListParagraph style='margin-top:2.0pt;margin-right:47.6pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Optimized<span style='letter-spacing:
+-.2pt'> </span>pipeline<span style='letter-spacing:-.25pt'> </span>assumptions<span
+style='letter-spacing:-.2pt'> </span>and<span style='letter-spacing:-.25pt'> </span>statistical<span
+style='letter-spacing:-.2pt'> </span>methods<span style='letter-spacing:-.2pt'>
+</span>to<span style='letter-spacing:-.35pt'> </span>decode<span
+style='letter-spacing:-.25pt'> </span>functional<span style='letter-spacing:
+-.2pt'> </span>microbial<span style='letter-spacing:-.2pt'> </span>profiles,<span
+style='letter-spacing:-.2pt'> </span>ensuring<span style='letter-spacing:-.25pt'>
+</span>data<span style='letter-spacing:-.2pt'> </span>integrity,
+reproducibility, and robust experimental controls.</span></p>
+
+<h6 style='margin-top:5.1pt;line-height:12.15pt'>Research<span
+style='letter-spacing:-.45pt'> </span>Fellow,<span style='letter-spacing:-.45pt'>
+</span>Molecular<span style='letter-spacing:-.45pt'> </span>Medicine,<span
+style='letter-spacing:-.45pt'> </span>Hannover<span style='letter-spacing:-.4pt'>
+</span>Medical<span style='letter-spacing:-.5pt'> </span><span
+style='letter-spacing:-.1pt'>School</span></h6>
+
+<p class=MsoNormal style='margin-left:.6in;line-height:12.15pt'><i><span
+style='font-size:10.0pt'>Sep<span style='letter-spacing:-.2pt'> </span>2016<span
+style='letter-spacing:-.1pt'> </span> <span style='letter-spacing:-.2pt'> </span>Oct<span
+style='letter-spacing:-.15pt'> </span>2018,<span style='letter-spacing:-.15pt'>
+</span><span style='letter-spacing:-.1pt'>Hannover</span></span></i></p>
+
+<p class=MsoListParagraph style='margin-top:2.05pt;margin-right:63.5pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Symbol;color:#333333'> <span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;color:#333333'>Quantitatively<span style='letter-spacing:
+-.2pt'> </span>characterised<span style='letter-spacing:-.2pt'> </span>immune<span
+style='letter-spacing:-.2pt'> </span>cell<span style='letter-spacing:-.2pt'> </span>populations<span
+style='letter-spacing:-.2pt'> </span>including<span style='letter-spacing:-.2pt'>
+</span>disease-associated<span style='letter-spacing:-.2pt'> </span>immune<span
+style='letter-spacing:-.2pt'> </span>subsets<span style='letter-spacing:-.15pt'>
+</span>in<span style='letter-spacing:-.25pt'> </span>human<span
+style='letter-spacing:-.15pt'> </span>cystic fibrosis lung tissue using
+tissue-level multiplex immunoassays and multi-panel flow cytometry (FlowJo),
+generating cellular signatures of pulmonary inflammation microenvironment
+immune profiling.</span></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;margin-right:54.95pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Symbol;color:#333333'> <span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;color:#333333'>Performed<span style='letter-spacing:
+-.15pt'> </span>FACS<span style='letter-spacing:-.25pt'> </span>sorting,<span
+style='letter-spacing:-.15pt'> </span>downstream<span style='letter-spacing:
+-.2pt'> </span>single-cell<span style='letter-spacing:-.2pt'> </span>analysis,<span
+style='letter-spacing:-.15pt'> </span>in<span style='letter-spacing:-.25pt'> </span>vitro<span
+style='letter-spacing:-.15pt'> </span>primary<span style='letter-spacing:-.15pt'>
+</span>cell<span style='letter-spacing:-.2pt'> </span>culture<span
+style='letter-spacing:-.2pt'> </span>with<span style='letter-spacing:-.05pt'> </span>bacterial<span
+style='letter-spacing:-.15pt'> </span>stimulation<span style='letter-spacing:
+-.15pt'> </span>and<span style='letter-spacing:-.15pt'> </span>in vivo animal
+model experiments, generating mechanistic insights into immune-mediated lung
+disease.</span></p>
+
+<p class=MsoListParagraph style='margin-top:4.0pt;margin-right:59.4pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Symbol;color:#333333'> <span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;color:#333333'>Extracted<span style='letter-spacing:
+-.15pt'> </span>nucleic<span style='letter-spacing:-.2pt'> </span>acids<span
+style='letter-spacing:-.1pt'> </span>from<span style='letter-spacing:-.2pt'> </span>primary<span
+style='letter-spacing:-.15pt'> </span>human<span style='letter-spacing:-.1pt'> </span>lung<span
+style='letter-spacing:-.2pt'> </span>tissues<span style='letter-spacing:-.15pt'>
+</span>and<span style='letter-spacing:-.15pt'> </span>lymph<span
+style='letter-spacing:-.15pt'> </span>nodes;<span style='letter-spacing:-.2pt'>
+</span>performed<span style='letter-spacing:-.15pt'> </span>qPCR<span
+style='letter-spacing:-.2pt'> </span>validation<span style='letter-spacing:
+-.15pt'> </span>and<span style='letter-spacing:-.15pt'> </span>statistical
+analysis using GraphPad Prism.</span></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;margin-right:59.15pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Symbol;color:#333333'> <span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;color:#333333'>Collaborated<span style='letter-spacing:
+-.2pt'> </span>with<span style='letter-spacing:-.2pt'> </span>clinical<span
+style='letter-spacing:-.25pt'> </span>partners<span style='letter-spacing:-.2pt'>
+</span>to<span style='letter-spacing:-.2pt'> </span>translate<span
+style='letter-spacing:-.25pt'> </span>pulmonary<span style='letter-spacing:
+-.3pt'> </span>disease<span style='letter-spacing:-.25pt'> </span>research<span
+style='letter-spacing:-.2pt'> </span>findings<span style='letter-spacing:-.2pt'>
+</span>into<span style='letter-spacing:-.2pt'> </span>publications<span
+style='letter-spacing:-.2pt'> </span>on<span style='letter-spacing:-.2pt'> </span>immune<span
+style='letter-spacing:-.25pt'> </span>cell characterisation in human lung
+tissue.</span></p>
+
+<p class=MsoBodyText style='margin-top:11.9pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<h4>Master s<span style='letter-spacing:-.35pt'> </span>Researcher<span
+style='font-weight:normal'>,<span style='letter-spacing:-.35pt'> </span></span>Universiti<span
+style='letter-spacing:-.35pt'> </span>Sains<span style='letter-spacing:-.35pt'>
+</span>Malaysia<span style='letter-spacing:-.3pt'> </span><span
+style='letter-spacing:-.2pt'>(USM)</span></h4>
+
+<p class=MsoNormal style='margin-left:.6in'><i><span style='font-size:10.0pt'>Sep<span
+style='letter-spacing:-.25pt'> </span>2013<span style='letter-spacing:-.2pt'> </span> <span
+style='letter-spacing:-.2pt'> </span>Feb<span style='letter-spacing:-.2pt'> </span>2015,<span
+style='letter-spacing:-.2pt'> </span>Penang,<span style='letter-spacing:-.2pt'>
+</span><span style='letter-spacing:-.1pt'>Malaysia</span></span></i></p>
+
+<p class=MsoListParagraph style='margin-top:8.15pt;margin-right:49.85pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Applied<span style='letter-spacing:
+-.15pt'> </span>CRISPR/Cas9<span style='letter-spacing:-.2pt'> </span>genome<span
+style='letter-spacing:-.1pt'> </span>editing<span style='letter-spacing:-.2pt'>
+</span>to<span style='letter-spacing:-.15pt'> </span>investigate<span
+style='letter-spacing:-.2pt'> </span>viral<span style='letter-spacing:-.15pt'> </span>latency<span
+style='letter-spacing:-.15pt'> </span>mechanisms,<span style='letter-spacing:
+-.15pt'> </span>using<span style='letter-spacing:-.2pt'> </span>guide<span
+style='letter-spacing:-.2pt'> </span>RNA<span style='letter-spacing:-.2pt'> </span>design<span
+style='letter-spacing:-.15pt'> </span>and<span style='letter-spacing:-.15pt'> </span>downstream
+molecular validation.</span></p>
+
+<p class=MsoListParagraph style='margin-top:7.95pt;margin-right:44.25pt;
+margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Performed<span style='letter-spacing:
+-.2pt'> </span>molecular<span style='letter-spacing:-.2pt'> </span>cloning,<span
+style='letter-spacing:-.1pt'> </span>lentiviral<span style='letter-spacing:
+-.2pt'> </span>cell<span style='letter-spacing:-.2pt'> </span>transduction,<span
+style='letter-spacing:-.2pt'> </span>single-cell<span style='letter-spacing:
+-.2pt'> </span>FACS<span style='letter-spacing:-.25pt'> </span>sorting,<span
+style='letter-spacing:-.2pt'> </span>immunofluorescence<span style='letter-spacing:
+-.2pt'> </span>microscopy,<span style='letter-spacing:-.2pt'> </span>site-directed
+mutagenesis, and cytotoxicity assays.</span></p>
+
+<p class=MsoListParagraph style='margin-top:8.05pt'><span style='font-size:
+10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Conducted<span style='letter-spacing:
+-.4pt'> </span>qRT-PCR,<span style='letter-spacing:-.35pt'> </span>metabolic<span
+style='letter-spacing:-.4pt'> </span>activity<span style='letter-spacing:-.4pt'>
+</span>assays<span style='letter-spacing:-.35pt'> </span>(MTT),<span
+style='letter-spacing:-.4pt'> </span>and<span style='letter-spacing:-.35pt'> </span>SEM<span
+style='letter-spacing:-.35pt'> </span>imaging,<span style='letter-spacing:-.4pt'>
+</span>with<span style='letter-spacing:-.35pt'> </span>statistical<span
+style='letter-spacing:-.35pt'> </span>analysis<span style='letter-spacing:-.4pt'>
+</span>of<span style='letter-spacing:-.45pt'> </span>experimental<span
+style='letter-spacing:-.4pt'> </span><span style='letter-spacing:-.1pt'>data</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><b><span
+style='font-size:10.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;text-indent:.5in'><b><span
+style='font-size:10.0pt'>Protein Design, Anthropic Hackathon</span></b><span
+style='font-size:10.0pt'> | March 2026 -Now</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Designed <i>de novo</i> protein
+binders targeting EGFR Receptor Domain 3, with generative AI and structural
+modelling pipelines.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Retrieved and preprocessed target
+structural data using RCSB PDB </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Benchmarked RFdiffusion3 and
+Rosetta for deep learning Algorithms </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Applied deep learning BindCraft
+and BoltzGen for binder/mini binder generation, sequence optimisation, and
+structural prediction.</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
+style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt'>Conducted structural validation,
+epitope selection metrics scaling and downstream analysis using ChimeraX.</span></p>
+
+<p class=MsoNormal style='margin-top:8.05pt'><span style='font-size:10.0pt;
+font-family:Symbol'>&nbsp;</span></p>
+
+ </section>
+<h3 id="education" style='margin-top:8.05pt;margin-right:0in;margin-bottom:3.0pt;margin-left:
+.6in'><span style='color:#1B395C;letter-spacing:-.1pt'>EDUCATION</span></h3>
+
+<p class=MsoNormal style='margin-left:41.75pt;line-height:1.0pt'><span
+style='font-size:1.0pt'><img border=0 width=705 height=1 id="Group 9"
+src="Seun_Ishola_AZ_html_files/image002.gif"></span></p>
+
+<h5>PhD,<span style='letter-spacing:-.25pt'> </span>Life<span style='letter-spacing:
+-.4pt'> </span>Sciences<span style='letter-spacing:-.25pt'> </span>(Bioinformatics<span
+style='letter-spacing:-.35pt'> </span>/<span style='letter-spacing:-.35pt'> </span>Molecular<span
+style='letter-spacing:-.2pt'> </span><span style='letter-spacing:-.1pt'>Biology)</span></h5>
+
+<p class=MsoBodyText style='margin-top:.9pt;margin-right:0in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt'>Technical<span style='letter-spacing:
+-.2pt'> </span>University<span style='letter-spacing:-.3pt'> </span>of<span
+style='letter-spacing:-.35pt'> </span>Munich<span style='letter-spacing:-.25pt'>
+</span>|<span style='letter-spacing:-.35pt'> </span>2019<span style='letter-spacing:
+-.1pt'> </span> <span style='letter-spacing:-.3pt'> </span><span
+style='letter-spacing:-.2pt'>2025</span></p>
+
+<p class=MsoNormal style='margin-top:5.05pt;margin-right:4.35in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;line-height:106%'><b><span
+style='font-size:10.5pt;line-height:106%'>MSc,<span style='letter-spacing:-.4pt'>
+</span>Molecular<span style='letter-spacing:-.35pt'> </span>Biology<span
+style='letter-spacing:-.4pt'> </span></span></b><span style='font-size:10.0pt;
+line-height:106%'> <span style='letter-spacing:-.35pt'> </span>Grade:<span
+style='letter-spacing:-.4pt'> </span>Excellent<span style='letter-spacing:-.35pt'>
+</span>(4.0/4.0) Universiti Sains Malaysia (USM) | 2013   2015</span></p>
+
+<h5 style='margin-top:4.3pt'>BSc,<span style='letter-spacing:-.1pt'>
+Microbiology</span></h5>
+
+<p class=MsoBodyText style='margin-top:1.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt'>University<span style='letter-spacing:
+-.25pt'> </span>of<span style='letter-spacing:-.35pt'> </span>Ilorin,<span
+style='letter-spacing:-.25pt'> </span>Nigeria<span style='letter-spacing:-.25pt'>
+</span>|<span style='letter-spacing:-.3pt'> </span>2006<span style='letter-spacing:
+-.15pt'> </span> <span style='letter-spacing:-.25pt'> </span><span
+style='letter-spacing:-.2pt'>2010</span></p>
+
+<h3 style='margin-top:9.85pt'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=98 height=0></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=705 height=1 src="Seun_Ishola_AZ_html_files/image002.gif"></td>
+ </tr>
+</table>
+
+<br clear=ALL>
+<span id="skills" style='color:#1B395C'>KEY<span style='letter-spacing:-.05pt'> </span><span
+style='letter-spacing:-.1pt'>COMPETENCIES</span></span></h3>
+
+<h6 style='text-align:justify'>Computational<span style='letter-spacing:-.5pt'>
+</span>Biology<span style='letter-spacing:-.45pt'> </span>&amp;<span
+style='letter-spacing:-.3pt'> </span><span style='letter-spacing:-.1pt'>Bioinformatics:</span></h6>
+
+<p class=MsoBodyText style='margin-top:4.0pt;margin-right:43.3pt;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>NGS Data
+Analysis, RNA-seq (Bulk &amp; Single-Cell), WGS/WES, Metagenomics,
+Metatranscriptomics, Microbiome Analysis, Phageomics, Functional Genomics,
+Comparative Genomics, Differential Expression, Variant Analysis, Pathway
+Enrichment, Biomarker Discovery</p>
+
+<p class=MsoNormal style='margin-top:3.95pt;margin-right:43.4pt;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b><span
+style='font-size:10.0pt'>Software &amp; Pipeline Engineering: </span></b><span
+style='font-size:10.0pt'>Advanced Python, R, Bash/Shell, Linux, HPC
+Environments, Nextflow, Snakemake, Version Control (Git), SQL<b>,</b></span></p>
+
+<p class=MsoBodyText style='margin-top:4.0pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>AI, Machine
+Learning &amp; LLMs: </b>Biological Foundation Models (CodonBERT,
+LinearDesign), LLM Fine-Tuning, Retrieval-Augmented Generation (RAG) Concepts,
+Deep Learning (CNNs, Random Forest, SVM), Multimodal Data Integration,
+Predictive Modeling</p>
+
+<p class=MsoBodyText style='margin-top:10.05pt;margin-right:43.15pt;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>RNA<span
+style='letter-spacing:-.1pt'> </span>&amp; Therapeutic<span style='letter-spacing:
+-.05pt'> </span>Design: </b>mRNA<span style='letter-spacing:-.05pt'> </span>Sequence<span
+style='letter-spacing:-.1pt'> </span>Design, Codon Optimisation, UTR<span
+style='letter-spacing:-.05pt'> </span>Engineering, RNA<span style='letter-spacing:
+-.05pt'> </span>Secondary-Structure<span style='letter-spacing:-.1pt'> </span>Prediction,
+Translation Efficiency, mRNA Stability, Immunogenicity, CodonBERT,
+LinearDesign, ShapeMapper, RNAframework</p>
+
+<p class=MsoBodyText style='margin-top:10.0pt;margin-right:43.45pt;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>Translational<span
+style='letter-spacing:-.4pt'> </span>Multi-Omics</b>:<span style='letter-spacing:
+-.4pt'> </span>Single-Cell<span style='letter-spacing:-.4pt'> </span>RNA-seq,<span
+style='letter-spacing:-.35pt'> </span>Spatial<span style='letter-spacing:-.35pt'>
+</span>&amp;<span style='letter-spacing:-.35pt'> </span>Bulk<span
+style='letter-spacing:-.35pt'> </span>Transcriptomics,<span style='letter-spacing:
+-.35pt'> </span>Metagenomics,<span style='letter-spacing:-.35pt'> </span>Biomarker<span
+style='letter-spacing:-.4pt'> </span>Discovery,<span style='letter-spacing:
+-.35pt'> </span>Mechanistic Pathway Analysis, Differential Expression.</p>
+
+<p class=MsoBodyText style='margin-top:9.95pt;margin-right:43.55pt;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>Leadership
+&amp; Collaboration: </b>Led cross-functional project activities, mentored
+junior scientists, and communicated complex computational findings to
+non-specialist biological and clinical stakeholders</p>
+
+<p class=MsoBodyText style='margin-top:10.05pt;margin-right:42.95pt;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>Disease &amp;
+Domain Expertise: </b>Respiratory &amp; Inflammatory Microenvironment
+Profiling, Cystic Fibrosis Human Lung Data, Host-Microbe Interactions,
+Immunology Assays</p>
+
+<p class=MsoNormal style='margin-top:10.0pt;margin-right:0in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b><span
+style='font-size:10.0pt'>Languages:<span style='letter-spacing:-.3pt'> </span></span></b><span
+style='font-size:10.0pt'>English<span style='letter-spacing:-.3pt'> </span>(Native),<span
+style='letter-spacing:-.3pt'> </span>German<span style='letter-spacing:-.3pt'> </span>(B2<span
+style='letter-spacing:-.35pt'> </span>in<span style='letter-spacing:-.3pt'> </span><span
+style='letter-spacing:-.1pt'>progress)</span></span></p>
+
+<h3 style='margin-top:9.9pt'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=98 height=0></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=705 height=1 src="Seun_Ishola_AZ_html_files/image002.gif"></td>
+ </tr>
+</table>
+
+<br clear=ALL>
+<span id="leadership" style='color:#1B395C'>LEADERSHIP<span style='letter-spacing:-.35pt'> </span>&amp;<span
+style='letter-spacing:-.2pt'> </span><span style='letter-spacing:-.1pt'>COMMUNITY</span></span></h3>
+
+<h6 style='text-align:justify'>Founder,<span style='letter-spacing:-.4pt'> </span>STEMGrowthHub<span
+style='letter-spacing:-.4pt'> </span>&amp;<span style='letter-spacing:-.35pt'> </span>The<span
+style='letter-spacing:-.3pt'> </span>Table<span style='letter-spacing:-.3pt'> </span><span
+style='letter-spacing:-.1pt'>Munich</span><span style='letter-spacing:-.1pt;
+font-weight:normal'> |</span><span style='font-weight:normal'> 2025-present </span></h6>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>Founded and lead
+STEMGrowthHub and The Table Munich: a growing community for STEM, biomedical AI
+and data science professionals. Demonstrated scientific capability through
+peer-reviewed publications, conference presentations and active scientific
+community building across STEM disciplines.</p>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>Committee
+member, Women in Data Science, Munich </b>| April 2026   present </p>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.1in;margin-bottom:.0001pt;text-align:justify;text-indent:.5in'>Plan
+and host the largest Women in Data Science conference in Munich and mentor
+students.  </p>
+
+<h3 style='margin-top:9.9pt'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=98 height=0></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=705 height=1 src="Seun_Ishola_AZ_html_files/image002.gif"></td>
+ </tr>
+</table>
+
+<br clear=ALL>
+<span id="publications">PUBLICATION</span></h3>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>1. Wohlgemuth K,
+Rasteiro M, Aneja M, Bota C, Cindric S, Freischem S, George S, G nes G nsel G,
+Ishola S, Koenig J, Kubisch-Dohmen R, Langenickel T, Loges NT, Lopes M, Mummert
+V, Olbrich H, Pennekamp P, Pereira T, Pinto AL, Raidt J, Rudolph C, Dori en Ter
+Steege A, Valecha D, Lopes SS, Omran H. mRNA therapy improves the composition
+and motility in CCDC40-deficient cilia in vitro and in vivo. Am J Respir Cell
+Mol Biol. 2026 Sep 1;74(9):1237-1250. <a href="https://doi.org/10.1093/ajrcmb/aanag034">doi: 10.1093/ajrcmb/aanag034</a>. </p>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>2. Ishola, O.A.;
+Kublik, S.; Durai Raj, A.C.; Ohnmacht, C.; Schulz, S.; Foesel, B.U.; Schloter,
+M. Comparative Metagenomic Analysis of Bacteriophages and Prophages in
+Gnotobiotic Mouse Models. Microorganisms 2024, 12, 255.
+<a href="https://doi.org/10.3390/microorganisms12020255">https://doi.org/10.3390/microorganisms12020255</a></p>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>3. Amar Y,
+Lagkouvardos I, Silva RL, Ishola OA, Foesel BU, Kublik S, Sch ler A,
+Niedermeier S, Bleuel R, Zink A, Neuhaus K, Schloter M, Biedermann T, K berle
+M. Pre-digest of unprotected DNA by Benzonase improves the representation of
+living skin bacteria and efficiently depletes host DNA. Microbiome. 2021 May
+26;9(1):123. <a href="https://doi.org/10.1186/s40168-021-01067-0">doi: 10.1186/s40168-021-01067-0</a>. PMID: 34039428; PMCID:
+PMC8157445.</p>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>4. Kalidasan,
+V., Ng, W.H., Ishola, O.A. et al. A guide in lentiviral vector production for
+hard-to-transfect cells, using cardiac-derived c-kit expressing cells as a
+model system. Sci Rep 11, 19265 (2021).
+<a href="https://doi.org/10.1038/s41598-021-98657-7">https://doi.org/10.1038/s41598-021-98657-7</a></p>
+
+<p class=MsoBodyText style='margin-top:9.85pt;margin-right:.6in;margin-bottom:
+0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'>&nbsp;</p>
+
+<section class="hobbies-section">
+<h3 id="hobbies">HOBBIES</h3>
+<p class="hobby-list">Playing tennis, reading fiction and biographies, singing, playing guitar, and hanging out with my friends and family.</p>
+</section>
+
+<section class="contact-section">
+<h3 id="contact">CONTACT</h3>
+<div class="contact-details">
+<p><strong>Phone number</strong><br>+491756972826</p>
+<p><strong>Email</strong><br><a href="mailto:oluwaseunisholaayodeji@gmail.com">oluwaseunisholaayodeji@gmail.com</a></p>
+<p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/stemgrowthhub-ishola-36a6643b9">linkedin.com/in/stemgrowthhub-ishola-36a6643b9</a></p>
+<p><strong>Location</strong><br>M&uuml;nchen, Germany (EU citizen)</p>
+</div>
+</section>
+
+</div>
+
+</main>
+</div>
+</body>
+
+</html>
