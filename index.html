@@ -161,26 +161,27 @@ body {
 
 .site-shell {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: minmax(0, 1fr) 238px;
 	align-items: start;
-	gap: 12px 0;
+	gap: 58px;
 	width: min(100%, 1280px);
 	margin: 0 auto;
-	padding: 28px 48px 80px;
+	padding: 44px 48px 80px;
 }
 
 .site-sidebar {
-	position: static;
-	grid-column: 1;
+	position: sticky;
+	top: 32px;
+	grid-column: 2;
 	grid-row: 1;
 	align-self: start;
 	min-width: 0;
-	padding: 0;
-	text-align: left;
+	padding: 24px 0;
+	text-align: right;
 }
 
 .site-name {
-	margin: 0 0 12px;
+	margin: 0 0 18px;
 	color: #777777;
 	font-size: 10px;
 	font-weight: 700;
@@ -190,25 +191,24 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
-	gap: 16px;
+	gap: 22px;
 }
 
 .site-links {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	gap: 18px 24px;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 4px;
 }
 
 .site-links a {
-	padding: 0;
+	padding: 8px 0;
 	color: var(--muted);
 	font-size: 13px;
 	font-weight: 600;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
-	text-align: left;
+	text-align: right;
 }
 
 .site-links a:hover,
