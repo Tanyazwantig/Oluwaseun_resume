@@ -161,27 +161,26 @@ body {
 
 .site-shell {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) 238px;
+	grid-template-columns: 1fr;
 	align-items: start;
-	gap: 58px;
+	gap: 12px 0;
 	width: min(100%, 1280px);
 	margin: 0 auto;
-	padding: 44px 48px 80px;
+	padding: 28px 48px 80px;
 }
 
 .site-sidebar {
-	position: sticky;
-	top: 32px;
-	grid-column: 2;
+	position: static;
+	grid-column: 1;
 	grid-row: 1;
 	align-self: start;
 	min-width: 0;
-	padding: 24px 0;
-	text-align: right;
+	padding: 0;
+	text-align: left;
 }
 
 .site-name {
-	margin: 0 0 18px;
+	margin: 0 0 12px;
 	color: #777777;
 	font-size: 10px;
 	font-weight: 700;
@@ -191,24 +190,25 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
-	gap: 22px;
+	gap: 16px;
 }
 
 .site-links {
 	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	gap: 4px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 18px 24px;
 }
 
 .site-links a {
-	padding: 8px 0;
+	padding: 0;
 	color: var(--muted);
 	font-size: 13px;
 	font-weight: 600;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
-	text-align: right;
+	text-align: left;
 }
 
 .site-links a:hover,
@@ -728,7 +728,7 @@ style='letter-spacing:-.2pt'> </span>Translational<span style='letter-spacing:
 
 <p id="about" class=MsoBodyText style='margin-top:14.35pt;margin-right:1.9pt;margin-bottom:
 0in;margin-left:16.05pt;margin-bottom:.0001pt;text-align:justify;line-height:
-107%'><span style='color:black'>I'm a Nigerian-German scientist, born and raised in Ilorin, based in Germany for ten years. I am an Applied AI &amp; Translational Computational Biologist with extensive experience building, fine-tuning, and evaluating machine learning systems and biological foundation models for therapeutic discovery. Experienced in translating complex AI and multi-omics outputs into actionable mechanistic insights alongside cross-functional translational teams.</span></p>
+107%'><span style='color:black'>I'm a Nigerian-German scientist, born and raised in Ilorin, based in Germany for ten years. I am an Applied AI &amp; Translational Computational Biologist with extensive experience applying and evaluating machine learning systems and biological foundation models for therapeutic discovery. Experienced in translating complex AI and multi-omics outputs into actionable mechanistic insights alongside cross-functional translational teams.</span></p>
 
 </div>
 
@@ -798,10 +798,9 @@ findings against downstream experimental data.</span></p>
 <p class=MsoListParagraph style='margin-right:43.05pt;text-align:justify'><span
 style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt'>Established computational
-workflows and automated pipelines (Nextflow, Snakemake) to interpret
-high-dimensional single-cell sequencing datasets (Seurat, DESeq2), ensuring
-high standards for data integrity, documentation, and <span style='letter-spacing:
--.1pt'>reproducibility.</span></span></p>
+workflows and automated pipelines to interpret high-dimensional single-cell
+sequencing datasets (Seurat, DESeq2), ensuring high standards for data
+integrity, documentation, and <span style='letter-spacing:-.1pt'>reproducibility.</span></span></p>
 
 <p class=MsoListParagraph style='margin-top:2.1pt;margin-right:43.3pt;
 margin-bottom:0in;margin-left:1.1in;margin-bottom:.0001pt;text-align:justify'><span
@@ -1066,12 +1065,6 @@ structural data using RCSB PDB </span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
 style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt'>Benchmarked RFdiffusion3 and
-Rosetta for deep learning Algorithms </span></p>
-
-<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
-margin-left:1.0in;text-indent:-.25in;text-autospace:ideograph-numeric ideograph-other'><span
-style='font-size:10.0pt;font-family:Symbol'> <span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt'>Applied deep learning BindCraft
 and BoltzGen for binder/mini binder generation, sequence optimisation, and
 structural prediction.</span></p>
@@ -1156,8 +1149,8 @@ Enrichment, Biomarker Discovery</p>
 <p class=MsoNormal style='margin-top:3.95pt;margin-right:43.4pt;margin-bottom:
 0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b><span
 style='font-size:10.0pt'>Software &amp; Pipeline Engineering: </span></b><span
-style='font-size:10.0pt'>Advanced Python, R, Bash/Shell, Linux, HPC
-Environments, Nextflow, Snakemake, Version Control (Git), SQL<b>,</b></span></p>
+style='font-size:10.0pt'>Python (working proficiency: Scanpy, Pandas, ML workflows), R, Bash/Shell, Linux, HPC
+Environments, Version Control (Git), SQL<b>,</b></span></p>
 
 <p class=MsoBodyText style='margin-top:4.0pt;margin-right:.6in;margin-bottom:
 0in;margin-left:.6in;margin-bottom:.0001pt;text-align:justify'><b>AI, Machine
