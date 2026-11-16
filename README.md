@@ -1,1 +1,2 @@
-# ComputationalBiology_Oluwaseun_Ishola.github.io
+This repository details how to create a CV web page on github. 
+open VScode, go to extensions 
